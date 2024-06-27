@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <marquee behavior="alternate" scrollamount="15" direction="Right" loop="40" vspace="30px" hspace="150px" bgcolor="Black"><h2><font color="white" family="poppins"> FILL THE FOLLOWING FORM</font></h2></marquee>
+<form action="" method="get" enctype="multipart/form-data">
+    <fieldset>
+        <legend><h2><a href="./index.html">Back</a></h2></legend>
+        <legend><h2>Student Form</h2></legend>
+<label for="name">Name:</label>
+<input type="text" name="name" id="name" placeholder="Ali Arif" pattern="[A-Z a-z]{6}" title="Only Alphabets can be entered"><br><br>
+<label for="email">Email id:</label>
+<input type="email" name="email" id="email" placeholder="student@gmail.com" required><br><br>
+<label for="pass">Password:</label>
+<input type="password" name="pass" id="pass" placeholder="Create a password" maxlength="16" minlength="4" required><br><br>
+<label for="phone">Phone Number</label>
+<input type="phone" name="phone" id="phone" placeholder="0300-*******" readonly><br><br>
+<label for="gender">Gender</label>
+<input type="radio" name="gender" id="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" id="female">
+<label for="female">Female</label><br><br>
+<label for="birth">Date of Birth</label>
+<input type="date" name="birth" id="birth"><br><br>
+<label for="interest">Interested in</label>
+<input type="checkbox" name="interest" id="C">
+<label for="C">C</label>
+<input type="checkbox" name="interest" id="C++">
+<label for="C++">C++</label>
+<input type="checkbox" name="interest" id="java">
+<label for="java">Java</label>
+<input type="checkbox" name="interest" id="Python">
+<label for="Python">Python</label>
+<input type="checkbox" name="interest" id="dev">
+<label for="dev">Full Stack Development</label><br><br>
+<label for="edu">Grade in Intermidiate</label>
+<select name="edu" id="edu">
+<option value="A+">A+ </option>
+<option value="A">A </option>
+<option value="B+">B+ </option>
+<option value="B">B </option>
+<option value="C">C </option>
+<option value="D">D </option> 
+<option value="Fail">Fail </option>   
+</select><br><br>
+<label for="address">Address</label>
+<textarea name="address" id="address" placeholder="City X Street No.**"></textarea><br><br>
+<label for="img">Profile Image</label>
+<input type="file" name="img" id="img" multiple><br><br>
+<input type="submit" name="submit" id="submit">
+<input type="reset" name="reset" id="reset">
+
+
+
+</form>
+</fieldset>
+
+</body>
+</html>
